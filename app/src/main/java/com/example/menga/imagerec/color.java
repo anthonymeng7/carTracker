@@ -18,7 +18,4 @@ public class color {
             ClarifaiInput.forImage("https://www.cambridgema.gov/~/media/Images/sharedphotos/Residential-Street-Permits.jpg?mw=1920")
     );
     List<ClarifaiOutput<Concept>> result = request.executeSync().get();
-    for(int i =0;i<list.size();i++){
-
-    }
 }
